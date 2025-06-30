@@ -2,7 +2,7 @@
 
 A machine learning project that predicts the likelihood of a chronic disease based on lifestyle and health factors using a Decision Tree classifier.
 
-## 📊 Dataset Features
+##  Dataset Features
 
 - Age
 - Gender
@@ -17,7 +17,7 @@ A machine learning project that predicts the likelihood of a chronic disease bas
 - Sleep_Hours
 - Target: Chronic_Disease (Yes/No)
 
-## 🧠 Model
+##  Model
 
 - **Algorithm:** DecisionTreeClassifier from `scikit-learn`
 - Encodes categorical data using mapping
@@ -25,7 +25,7 @@ A machine learning project that predicts the likelihood of a chronic disease bas
 - Exported as `.joblib` model
 - Visualized using `tree.export_graphviz`
 
-## 🚀 How to Run
+## How to Run
 
 1. Install requirements:
    ```bash
@@ -38,7 +38,7 @@ Run all cells to train, evaluate, and test the model.
 
 3. Run all cells to train, evaluate, and test the model.
 
-📈 Example Prediction
+Example Prediction
 
 sample_data = pd.DataFrame([{
     'Age': 30,
